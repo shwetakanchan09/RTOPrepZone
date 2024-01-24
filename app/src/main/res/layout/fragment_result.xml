@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultFragment">
+
+  <TextView
+      android:id="@+id/txtResult"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="44sp"
+      android:text="Failed !"
+      android:fontFamily="@font/nunito_extrabold"
+      android:textColor="@color/black"
+      android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="26sp"
+      android:layout_weight="1"
+      android:text="Correct Ans"
+      android:fontFamily="@font/nunito_extrabold"
+      android:textColor="@color/black"
+      android:gravity="center"/>
+  <TextView
+      android:id="@+id/txtCorrect"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="26sp"
+      android:text="1"
+      android:layout_weight="1"
+      android:fontFamily="@font/nunito_extrabold"
+      android:textColor="@color/black"
+      android:gravity="start"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="26sp"
+      android:layout_weight="1"
+      android:text="Wrong Ans"
+      android:fontFamily="@font/nunito_extrabold"
+      android:textColor="@color/black"
+      android:gravity="center"/>
+  <TextView
+      android:id="@+id/txtWrong"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="26sp"
+      android:layout_weight="1"
+      android:text="1"
+      android:fontFamily="@font/nunito_extrabold"
+      android:textColor="@color/black"
+      android:gravity="start"/>
+    </LinearLayout>
+</LinearLayout>
